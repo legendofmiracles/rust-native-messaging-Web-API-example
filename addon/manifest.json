@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "themefox-manager",
+  "version": "1.0",
+  "description": "foobar",
+  "icons": {
+    "48": "icons/logo-themefox.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "lolsu@themefox.net",
+      "strict_min_version": "50.0"
+    }
+  },
+  "background": 
+    {
+      "scripts": [
+        "themefox_manager.js"
+      ]
+    },
+    "permissions": ["nativeMessaging"],
+    "browser_action": {
+      "default_icon": "icons/logo-themefox.png"
+    }
+  
+}
