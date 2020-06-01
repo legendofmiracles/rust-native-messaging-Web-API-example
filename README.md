@@ -8,3 +8,9 @@ Then copy the example_name.json (or however you know call it, into one of the di
 
 Make sure all of the values are correct, and you should be good to go.
 
+Run the extension as explained here: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension, or use web-ext (install with npm: `npm install -g web-ext`).
+For chrome, follow these steps:
+1) go to chrome://extensions
+2) Load unpacked
+3) Choose folder
+and probably have to turn on developer mode before you can load unpacked in the top right in chrome://extensions
