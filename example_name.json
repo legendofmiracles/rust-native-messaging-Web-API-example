@@ -1,0 +1,7 @@
+{
+    "name": "example_name",
+    "description": "Example host for native messaging",
+    "path": "/home/user/programming/firefox/Themefox-Manager-addon/rust-app/target/release/stdin-firefox",
+    "type": "stdio",
+    "allowed_extensions": [ "example@foo.bat" ]
+}
