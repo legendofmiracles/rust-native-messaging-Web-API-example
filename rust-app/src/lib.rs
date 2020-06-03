@@ -11,10 +11,6 @@ pub fn read_input<R: Read>(mut input: R) -> io::Result<serde_json::Value> {
     let mut buffer = vec![0; length as usize];
     input.read_exact(&mut buffer)?;
     let json_val: serde_json::Value = serde_json::from_slice(&buffer).unwrap();
-    let mut file = fs::File::create("/home/legendofmiracles/res.txt").unwrap();
-    file.write_all(format!("{}", json_val).as_bytes());
-    let mut file = fs::File::create("/home/legendofmiracles/res2.txt").unwrap();
-    file.write_all(format!("{}", length).as_bytes());
     Ok(json_val)
 }
 
